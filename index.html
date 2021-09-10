@@ -1,5 +1,6 @@
 <!-- Himanshu Patel, CISC474, Personal Web Page 1, hpatell@udel.edu -->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <title>Himanshu's Website</title>
 
@@ -23,6 +24,10 @@
     .bottomDiv {
       border: 10px solid #d0809b;
       background-color: rgba(255, 255, 255, 0.308);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 1102px;
     }
     .buttons {
       background-color: rgb(138, 208, 240);
@@ -48,7 +53,7 @@
 </head>
 
 <body>
-  <center>
+  
   <!-- Header for index.html -->
   <h1 style="font-size:250%">Himanshu Patel</h1>
 
@@ -69,7 +74,7 @@
   <!-- My List of Interests in Web Development -->
   <h2 style="font-size:175%"> Web Development Aspects of Interest</h2>
     <ul>
-      <div style="text-align: left; font-size: 125%">
+      <div style="text-align:left; font-size:125%">
         <li>Visual Design</li>
         <li>User Interaction</li>
         <li>User Navigation</li>
@@ -81,14 +86,13 @@
 
   <!-- Buttons/Links to other web pages (AboutMe and Course Site) -->
   <div class="bottomDiv">
-    <p><a class="buttons" href="https://hpatell.github.io/aboutMe">About Me</a></p>
-    <p><a class="buttons" href="https://mattm401.github.io/">CISC474 Website</a></p>
-    <hr>
-    <a class="buttons" href="https://pang17.github.io/">Previous Student</a>
-    <a class="buttons" href="https://CaseStingray173.github.io/">Next Student</a>
-    <a class="buttons" href="aboutMe.html">temp link</a>
+    <a class="buttons" href="https://hpatell.github.io/aboutMe">About Me</a>
+    <a class="buttons" href="https://mattm401.github.io/">CISC474 Website</a>
+      <div>
+      <a class="buttons" href="https://pang17.github.io/">Previous Student</a>
+      <a class="buttons" href="https://CaseStingray173.github.io/">Next Student</a>
+      </div>
   </div>
-  </center>
 
 </body>
 </html>
