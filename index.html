@@ -1,38 +1,92 @@
-<!---
-  Himanshu Patel
-  CISC474
-  Personal Web Page
-  --->
+<!-- Himanshu Patel, CISC474, Personal Web Page 1, hpatell@udel.edu -->
 <html>
 <head>
   <title>Himanshu's Website</title>
+
+  <!-- CSS for index.html -->
+  <style>
+    .rightDiv {
+      border: 25px solid transparent;
+    }
+    .leftDiv {
+      border: 25px solid transparent;
+    }
+    .topDiv {
+      border: 10px solid #d0809b;
+      background-color: rgba(255, 255, 255, 0.308);
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+    .bottomDiv {
+      border: 10px solid #d0809b;
+      background-color: rgba(255, 255, 255, 0.308);
+    }
+    .buttons {
+      background-color: rgb(138, 208, 240);
+      display: inline-flex;
+      color: black;
+      margin: 5px;
+      padding: 5px;
+      width: 130px;
+      border-radius: 10px;
+      justify-content: center;
+      text-decoration: none;
+    }
+    body {
+      background-image: url(images/background1.jpeg);
+      background-size: 100%;
+      font-family: Arial;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
 </head>
 
 <body>
   <center>
-  <h1>Himanshu Patel</h1>
-  <p>
-    Hello! My full name is Himanshu Patel. The name I go by in class is Himanshu.
-  </p>
-  
-  <img src="/images/PicOfMe.jpeg" alt="Image of Me" width="500">
+  <!-- Header for index.html -->
+  <h1 style="font-size:250%">Himanshu Patel</h1>
 
-  <h2>Web Development Aspects of Interest</h2>
-  <ul>
-    <li>Visual Design</li>
-    <li>User Interaction</li>
-    <li>User Navigation</li>
-    <li>Web Server/Network Configuration</li>
-  </ul>
+  <!-- Himanshu Patel, CISC474, Personal Web Page 1, hpatell@udel.edu -->
 
-  <p><a href="https://hpatell.github.io/aboutMe">About Me</a></p>
-  <p><a href="https://hpatell.github.io/resume">Resume</a></p>
-  <p><a href="https://mattm401.github.io/">CISC474 Website</a></p>
-  
-  <hr>
-  <a href="https://hpatell.github.io/">Previous Student</a>
-  <a href="https://hpatell.github.io/">Next Student</a>
+  <div class="topDiv">
+    <div class="leftDiv">
+      <!-- Image of Myself -->
+      <img src="/images/PicOfMe.jpeg" alt="Image of Me" width="500">
+    </div>
 
+    <!-- My full and preferred name -->
+    <div class="rightDiv">
+      <p style="font-size:155%">
+        Hello! My full name is Himanshu Patel. <br> The name I go by in class is Himanshu.
+      </p>
+
+  <!-- My List of Interests in Web Development -->
+  <h2 style="font-size:175%"> Web Development Aspects of Interest</h2>
+    <ul>
+      <div style="text-align: left; font-size: 125%">
+        <li>Visual Design</li>
+        <li>User Interaction</li>
+        <li>User Navigation</li>
+        <li>Web Server/Network Configuration</li>
+      </div>
+    </ul>
+    </div>
+  </div>
+
+  <!-- Buttons/Links to other web pages (AboutMe and Course Site) -->
+  <div class="bottomDiv">
+    <p><a class="buttons" href="https://hpatell.github.io/aboutMe">About Me</a></p>
+    <p><a class="buttons" href="https://mattm401.github.io/">CISC474 Website</a></p>
+    <hr>
+    <a class="buttons" href="https://pang17.github.io/">Previous Student</a>
+    <a class="buttons" href="https://CaseStingray173.github.io/">Next Student</a>
+  </div>
   </center>
 
 </body>

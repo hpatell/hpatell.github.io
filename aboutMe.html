@@ -1,45 +1,78 @@
-<!---
-  Himanshu Patel
-  CISC474
-  Personal Web Page
-  --->
+<!-- Himanshu Patel, CISC474, Personal Web Page 1, hpatell@udel.edu -->
   <html>
     <head>
       <title>About Me</title>
+
+      <!-- CSS for index.html -->
+      <style>
+        .topDiv {
+          border: 10px solid #d0809b;
+          background-color: rgba(255, 255, 255, 0.308);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 790px;
+        }
+        .bottomDiv {
+          border: 10px solid #d0809b;
+          background-color: rgba(255, 255, 255, 0.308);
+        }
+        .buttons {
+          background-color: rgb(138, 208, 240);
+          display: inline-flex;
+          color: black;
+          margin: 5px;
+          padding: 5px;
+          width: 130px;
+          border-radius: 10px;
+          justify-content: center;
+          text-decoration: none;
+        }
+        body {
+          background-image: url(images/background1.jpeg);
+          background-size: 100%;
+          font-family: Arial;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+      </style>
     </head>
     
     <body>
       <center>
+      <!-- Header for aboutMe.html -->
       <h1>About Me</h1>
       <hr>
-      <p>
-        I am from Middletown, Delaware where I atteded Middletown High School. Currently, I'm a junior undergraduate student 
-        at the University of Delaware. My major is Computer Science with a concentration in Software Engineering. 
-      </p>
+      <div class="topDiv">
+        <!-- Info about my Education -->
+        <h2>Education</h2>
+        <p style="text-align: left;">
+            I am from Middletown, Delaware where I atteded Middletown High School. <br> Currently, I'm a junior undergraduate student 
+            at the University of Delaware. <br> My major is Computer Science with a concentration in Software Engineering. 
+        </p>
+        <!-- Info about my Hobbies -->
+        <h2>Hobbies</h2>
+        <p style="text-align: left;">
+            During my free time, I enjoy playing basketball, hitting the gym, playing video games <br> and hanging out with friends.
+            I also love to travel and do crazy adventureous things. <br> One interesting fact about me is I like spicy food and that I 
+            easily completed the Paqui <br> Carolina Reaper One Chip Challenge without drinking or eating anything for 30 minutes. 
+        </p>
+      </div>
+      
+      <!-- Images of Me -->
+      <img src="/images/PicOfMe2.jpeg" alt="Image of Me" width="200" height="250">
+      <img src="/images/PicOfMe3.jpeg" alt="Image of Me" width="400" height="250">
+      <img src="/images/PicOfMe5.jpeg" alt="Image of Me" width="200" height="250">
 
-      <p>
-        During my free time, I enjoy playing basketball, hitting the gym, playing video games and hanging out with friends. 
-        I also love to travel and do crazy adventureous things. One interesting fact about me is I like spicy food and that I 
-        easily completed the Paqui Carolina Reaper One Chip Challenge without drinking or eating anything for 30 minutes. 
-      </p>
-      
-      <img src="/images/PicOfMe.jpeg" alt="Image of Me" width="400">
-    
-      <h2>Web Development Aspects of Interest</h2>
-      <ul>
-        <li>Thing 1</li>
-        <li>Thing 2</li>
-        <li>Thing 3</li>
-        <li>Thing 4</li>
-        <li>Thing 5</li>
-      </ul>
-    
-      <a href="https://hpatell.github.io/">Back</a>
-      
+      <!-- Buttons/Links to other web pages (Back Button and Previous/Next students) -->
+      <div class="bottomDiv">
+      <a class="buttons" href="https://hpatell.github.io/">Back</a>
       <hr>
-      <a href="https://hpatell.github.io/">Previous Student</a>
-      <a href="https://hpatell.github.io/">Next Student</a>
-    
+      <a class="buttons" href="https://pang17.github.io/">Previous Student</a>
+      <a class="buttons" href="https://CaseStingray173.github.io/">Next Student</a>
+      </div>
       </center>
     
     </body>
