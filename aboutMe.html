@@ -3,53 +3,21 @@
   <html lang="en">
     <head>
       <title>About Me</title>
-
-      <!-- CSS for index.html -->
-      <style>
-        .topDiv {
-          border: 10px solid #d0809b;
-          background-color: rgba(255, 255, 255, 0.308);
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          width: 790px;
-        }
-        .bottomDiv {
-          border: 10px solid #d0809b;
-          background-color: rgba(255, 255, 255, 0.308);
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          width: 790px;
-        }
-        .buttons {
-          background-color: rgb(138, 208, 240);
-          display: inline-flex;
-          color: black;
-          margin: 5px;
-          padding: 5px;
-          width: 130px;
-          border-radius: 10px;
-          justify-content: center;
-          text-decoration: none;
-        }
-        .images {
-          display: flex;
-          flex-direction: row;
-          align-items: center;
-        }
-        body {
-          background-image: url(images/background1.jpeg);
-          background-size: 100%;
-          font-family: Arial;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-      </style>
+      <link rel="stylesheet" href="css/stylesAboutMe.css"/>
     </head>
     
     <body>
+      <!-- Navigation Bar: Buttons/Links to other web pages (Back Button and Previous/Next students) -->
+      <div class="bar">
+        <a href="https://hpatell.github.io/">Home</a>
+        <a href="https://hpatell.github.io/aboutMe.html">About Me</a>
+        <a href="https://hpatell.github.io/contactForm.html">Contact Form</a>
+        <a href="https://mattm401.github.io/">CISC474 Website</a>
+        <a href="https://pang17.github.io/">Previous Student</a>
+        <a href="https://CaseStingray173.github.io/">Next Student</a>
+        </ul>
+      </div>
+
       <!-- Header for aboutMe.html -->
       <h1>About Me</h1>
       
@@ -76,14 +44,8 @@
       <img src="/images/PicOfMe5.jpeg" alt="Image of Me" width="200" height="250">
       </div>
 
-      <!-- Buttons/Links to other web pages (Back Button and Previous/Next students) -->
-      <div class="bottomDiv">
-      <a class="buttons" href="https://hpatell.github.io/">Back</a>
-        <div>
-        <a class="buttons" href="https://pang17.github.io/">Previous Student</a>
-        <a class="buttons" href="https://CaseStingray173.github.io/">Next Student</a>
-        </div>
-      </div>
+      <!-- Bottom Line -->
+      <div class="bottomDiv"></div>
     
     </body>
     </html>
