@@ -10,7 +10,7 @@ window.onload = function() {
             }, function(error) {
                 console.log('FAILED...', error);
             });
-            window.alert("Message Sent!"); 
+            window.alert("Success! Your message was sent."); 
             document.getElementById("contact-form").reset();
     });
 }
