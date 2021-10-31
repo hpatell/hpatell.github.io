@@ -1,5 +1,8 @@
   .rightDiv {
     border: 25px solid transparent;
+    max-width: 500px;
+    font-family: 'Courier New', monospace;
+    font-size: 125%;
   }
   .leftDiv {
     border: 25px solid transparent;
@@ -24,7 +27,7 @@
     color:black;
     text-align: center;
     display: inline-block;
-    padding: 15px;
+    padding: 14px;
     text-decoration: none;
     font-size: 20px;
   }
@@ -34,6 +37,40 @@
   }
   .bar a.active {
     background-color:rgba(221, 221, 221, 0.726);
+  }
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  .dropdown .dropdown-button {
+    color:black;
+    font-size: 20px;  
+    border: none;
+    padding: 14px;
+    background-color: transparent;
+  }
+  .bar a:hover, .dropdown:hover .dropdown-button {
+    background-color: rgba(221, 221, 221, 0.726);
+    color: black;
+  }
+  .class-links {
+    display: none;
+    position: absolute;
+    background-color: #d0809b;
+    z-index: 1;
+  }
+  .class-links a {
+    float: none;
+    padding: 14px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .class-links a:hover {
+    background-color: rgba(221, 221, 221, 0.726);
+  }
+  .dropdown:hover .class-links {
+    display: block;
   }
   .buttons {
     background-color: rgb(138, 208, 240);
@@ -54,4 +91,62 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  footer {
+    position: static;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    margin: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .fa {
+    padding: 15px;
+    font-size: 60px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }  
+  .fa-github {
+    background: black;
+    color: white;
+  }
+  .download {
+    text-align: center;
+    margin: 20px;
+  }
+  /*multiple buttons style*/
+  .downloadButton {
+    background-color: white;
+    color: black;
+    border-radius: 13px;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .downloadButton:hover {
+    opacity: 0.7;
+  }
+  .resume-page {
+    background-color: white;
+    padding: 15px;
+  }
+  .githubPic {
+    width: 60px;
+    height: 60px;
   }

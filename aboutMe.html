@@ -3,7 +3,19 @@
   <html lang="en">
     <head>
       <title>About Me</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="css/stylesAboutMe.css"/>
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-211559384-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-211559384-1');
+      </script>
+
     </head>
     
     <body>
@@ -11,10 +23,17 @@
       <div class="bar">
         <a href="https://hpatell.github.io/">Home</a>
         <a href="https://hpatell.github.io/aboutMe.html">About Me</a>
+        <a href="https://hpatell.github.io/resume.html">Resume</a>
+        <a href="https://hpatell.github.io/projects.html">Projects</a>
         <a href="https://hpatell.github.io/contactForm.html">Contact Form</a>
-        <a href="https://mattm401.github.io/">CISC474 Website</a>
-        <a href="https://pang17.github.io/">Previous Student</a>
-        <a href="https://CaseStingray173.github.io/">Next Student</a>
+        <div class="dropdown">
+          <button class="dropdown-button">Class Links</button>
+          <div class="class-links">
+            <a href="https://pang17.github.io/">Previous Student</a>
+            <a href="https://CaseStingray173.github.io/">Next Student</a>
+            <a href="https://mattm401.github.io/">CISC474 Website</a>
+          </div>
+        </div>
       </div>
 
       <!-- Header for aboutMe.html -->
@@ -45,6 +64,14 @@
 
       <!-- Bottom Line -->
       <div class="bottomDiv"></div>
-    
+
+      <!-- Footer -->
+      <footer>
+        <div style="font-size:150%">Contact Me</div>
+        <a href="https://www.linkedin.com/in/himanshu30patel" class="fa fa-linkedin"></a>
+        <a href="https://github.com/hpatell" class="fa fa-github"></a>
+        <a href="mailto:hpatell@udel.edu" class="fa fa-google"></a>
+      </footer>
+      
     </body>
     </html>
